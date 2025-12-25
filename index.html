@@ -205,16 +205,7 @@
         bgMusic.loop = true; bgMusic.volume = 1.0;
 
         const loader = new THREE.TextureLoader();
-        const photoFiles = [
-        'https://drive.google.com/file/d/19lJx2oGnDF4Td4TkDdU9HDi4NiWc_8ZQ/view?usp=sharing',
-        'https://drive.google.com/file/d/1S-X-dczdDi6xBbQ1m2rbBkVyoZ-kAAyQ/view?usp=sharing',
-        'https://drive.google.com/file/d/14ONmwktVBm8v8eetcmNoRtlLu9hSdKoa/view?usp=sharing',
-        'https://drive.google.com/file/d/1Bp51084A2eQIr2epS0p_I1NWHWq2xaej/view?usp=sharing',
-        'https://drive.google.com/file/d/1Fkrq66LtjjtXi4H6WxuurJQZyuo60AXf/view?usp=sharing',
-        'https://drive.google.com/file/d/1giRbMaFl-DUDVE3FK_S453yQba5_PIA_/view?usp=sharing',
-        'https://drive.google.com/file/d/1g9Qno6PcHOwNkSWfpiH050M2CnqcLkZr/view?usp=sharing',
-        'https://drive.google.com/file/d/1lTy-zsVhCqOQqGNfHQlrX3Eafupg3MOe/view?usp=sharing',
-        ];
+        const photoFiles = ['./img/a1.jpg', './img/a2.jpg', './img/a3.jpg', './img/a4.jpg','./img/a5.jpg','./img/a6.jpg','./img/a7.jpg','./img/a8.jpg',];
         const photoTextures = [];
         photoFiles.forEach((f, i) => photoTextures[i] = loader.load(f));
 
